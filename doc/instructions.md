@@ -16,8 +16,8 @@
 
 
 <details>
-  <summary>Common Commands</summary>
-
+  <summary>Common Commands</summary> 
+ 
    * Show all images
 
     docker images
