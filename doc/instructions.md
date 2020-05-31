@@ -14,44 +14,40 @@
     Server under the app is running
 </details>
 
-# Common Commands
 
-* Show all images
-```
-docker images
-```
+<details>
+  <summary>Common Commands</summary>
 
-* Show all containers
- ```
-docker ps -a
-```
+   * Show all images
 
-* Show all running containers
- ```
-docker ps
-```
+    docker images
 
-* Remove image
- ```
-docker rmi <image>
-```
+   * Show all containers
 
-* Remove container
- ```
-docker rm <container>
-```
+    docker ps -a
+ 
+   * Show all running containers
 
-* Run image into container
- ```
-docker run <image>
-```
+    docker ps
 
-* Stop running container
- ```
-docker stop <container>
-```
+   * Remove image
 
-* Start container after it was stopped
- ```
-docker start <container>
-```
+    docker rmi <image>
+
+   * Remove container
+
+    docker rm <container>
+
+   * Run image into container
+
+    docker run <image>
+
+   * Stop running container
+    
+    docker stop <container>
+    
+   * Start container after it was stopped
+   
+    docker start <container>
+    
+</details>
