@@ -21,26 +21,19 @@
    * Show all images
 
     docker images
+   
 
    * Show all containers
 
     docker ps -a
  
-   * Show all running containers
-
-    docker ps
-
-   * Remove image
-
-    docker rmi <image>
-
-   * Remove container
-
-    docker rm <container>
-
    * Run image into container
 
     docker run <image>
+ 
+   * Show all running containers
+
+    docker ps
 
    * Stop running container
     
@@ -49,5 +42,24 @@
    * Start container after it was stopped
    
     docker start <container>
+    
+   * Remove container
+
+    docker rm <container>
+    
+   * Remove image
+
+    docker rmi <image>
+    
+   * Remove all container
+
+    docker rm -vf $(docker ps -a -q)
+
+   * Remove all image
+
+    docker rmi -f $(docker images -a -q)
+
+
+
     
 </details>
