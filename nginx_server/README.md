@@ -27,3 +27,8 @@ docker start nginx_webserver
 docker ps
 ```
 
+### 7. Stop the container
+```
+docker stop nginx_webserver
+```
+
