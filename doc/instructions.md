@@ -9,8 +9,7 @@
     Defines the OS, where to get the code to build the app,etc.
     
    ### Image:
-    Blueprint of the instructions expecified in Dockerfile
-    
+    Blueprint of the instructions expecified in Dockerfil
    ### Container:
     Server under the app is running
 </details>
