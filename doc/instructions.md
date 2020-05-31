@@ -4,16 +4,15 @@
 <details>
   <summary>Glossary</summary>
   
-    ### Dockerfile:
+   ### Dockerfile:
     Contains all the instructions under which docker is gonna be build an image. \
     Defines the OS, where to get the code to build the app,etc.
     
-    ### Image:
+   ### Image:
     Blueprint of the instructions expecified in Dockerfile
     
-    ### Container:
+   ### Container:
     Server under the app is running
-
 </details>
 
 # Common Commands
