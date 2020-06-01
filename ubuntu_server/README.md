@@ -2,7 +2,7 @@
 
 ### 1. Get the image
 ```
-bash ubuntu_image.sh
+docker run -it ubuntu:16.04 /bin/bash
 ```
 ### 2. Check the ubuntu files
 ```
